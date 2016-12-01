@@ -1,0 +1,591 @@
+body {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100;
+      position: relative;
+      font-size: 1.3em;
+  }
+
+b {
+  color: #000;
+}
+.margin100top{
+  margin-top: 100px;
+}
+.margin200top{
+  margin-top: 200px;
+}
+.margin100bot{
+  margin-bottom: 100px;
+}
+#contact-area {
+  max-width: 1100px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+  padding: 5px;
+  width: 400px;
+  margin: 0px 0px 10px 0px;
+  border: 1px solid #ddd;
+}
+
+#contact-area textarea {
+  height: 90px;
+  width: 400px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+  border: 1px solid #900;
+}
+
+#contact-area input.submit-button {
+  width: 100px;
+
+}
+.nameCityEmail{
+  float: left;
+}
+.message {
+  float: right;
+
+}
+label {
+
+  text-align: right;
+  margin-right: 15px;
+  width: 100px;
+  padding-top: 5px;
+
+}
+  
+
+/* ===========================
+   ====== Submit Button ====== 
+   =========================== */
+
+.submit input {
+  width: 100px; 
+  height: 40px;
+  background-color: #fff; 
+  color: #000;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;   
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
+.indent {
+  text-indent: 50px;
+}
+.move-right {
+  margin-left: 4%;
+}
+.container {
+  margin: auto;
+  width: 100%;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+
+.text-bot{
+  position: relative;
+  top: 80px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2em;
+  color: #aaa;
+}
+
+
+.custom-dropdown-icon{
+	position: relative;
+  top: -13px;
+	width: 80px;
+	float: right;
+	background-image: url(../images/dropdown.png);
+}
+  .center-icons {
+  position: relative;
+  top: 50px;
+  display: inline-block;
+  margin-left: 15%;
+  max-width: 800px;
+}
+
+  .icons img{
+    position: relative;
+    width: 30px;
+    max-width: 30px;
+}
+  .facebook, .linkedin, .dribbble {
+    position: relative;
+    opacity: 1;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    width: 100%;
+    width: 80px;
+    height: auto;
+}
+.facebook:hover, .linkedin:hover, .dribbble:hover  {
+  position: relative;
+  height: auto;
+  opacity: 1;
+  width: 105%;
+  max-width: 105px;
+}
+
+
+
+ 
+ .home img{
+ 	position: absolute;
+	width: 90px;
+	padding-top: 0px;
+	padding-bottom: 50px;
+}
+
+
+.btn {
+	top: 220px;
+  width: 100%;
+  max-width: 100px;
+  height: 30px;
+	background-color: #286090;
+	color: #286090;
+	border-radius: 5px;
+	border-style: none;	
+  box-shadow: 0px 10px 50px #000;
+}
+
+
+
+a {
+  color: #738ea2; 
+  font-weight: 400;
+  text-decoration: none;
+}
+a.name {
+  color: #909090;
+  text-decoration: none;
+}
+.nav>li>a:focus, .nav>li>a:hover .nav>li>a:active .nav>li>a:visited .nav>li>a:link {
+  background-color: #000;
+  text-decoration: none;
+  color: #000;
+}
+.nav {
+  padding-right: 2%;
+  color: #fff;
+}
+.active {
+  text-decoration: none;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control, .glyphicon, .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+  color: #000;
+  text-shadow: 0 4px 8px #000;
+  background-image: none;
+}
+
+
+.col-xs-move-left {
+  position: relative;
+  left: 6%;
+}
+
+
+.icon img{
+  width: 40px;
+}
+
+
+
+/* Tablet query */
+/* Tablet query */
+/* Tablet query */
+/* Tablet query */
+/* Tablet query */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  /* some CSS here */
+  body{
+    font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+    font-size: 1.5em;
+  }
+.home img{
+  top: 0px;
+  width: 100px;
+}
+#contact-area input, #contact-area textarea {
+  width: 350px;
+}
+  .center-icons {
+  position: relative;
+  top: 50px;
+  display: inline-block;
+  margin-left: 15%;
+  max-width: 800px;
+}
+
+  .icons img{
+    position: relative;
+    width: 80px;
+    max-width: 80px;
+}
+  .facebook, .linkedin, .dribbble, .youtube, .twitter, .google, .behance  {
+    position: relative;
+    opacity: 1;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    width: 100%;
+    width: 80px;
+    height: auto;
+}
+.facebook:hover, .linkedin:hover, .dribbble:hover, .youtube:hover, .twitter:hover, .google:hover, .behance:hover  {
+  position: relative;
+  height: auto;
+  opacity: 1;
+  width: 105%;
+  max-width: 105px;
+}
+
+
+
+
+
+.apple {
+    width: 35%;
+    margin: 50px 100px;
+    box-shadow: 0px 50px 182px #000;
+}
+.apple img {
+  margin: 0 50px;
+  padding: 0 50px;
+}
+
+
+.btn {
+  top: 300px;
+  width: 100%;
+  max-width: 200px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.3) url(../images/portfolio.svg)no-repeat;
+  border-radius: 5px;
+  border-style: none; 
+  box-shadow: 0px 30px 90px #000;
+}
+
+
+/* Tablet query End*/
+/* Tablet query End*/
+/* Tablet query End*/
+/* Tablet query End*/
+/* Tablet query End*/
+/* Tablet query End*/
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px){
+  /* some CSS here */
+  body {
+    font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+    font-size: 2.0em;
+  }
+  .center-icons {
+  position: relative;
+  top: 80px;
+  display: inline-block;
+  margin-left: 30%;
+  max-width: 800px;
+}
+
+  .icons img{
+    position: relative;
+    width: 60px;
+    max-width: 60px;
+}
+  .facebook, .linkedin, .dribbble, .youtube, .twitter, .google, .behance  {
+    position: relative;
+    opacity: 1;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+    width: 100%;
+    width: 65px;
+    height: auto;
+}
+.facebook:hover, .linkedin:hover, .dribbble:hover, .youtube:hover, .twitter:hover, .google:hover, .behance:hover  {
+  position: relative;
+  height: auto;
+  opacity: 1;
+  width: 115%;
+  max-width: 90px;
+}
+
+.home img{
+  position: relative;
+  top: -5px;
+}
+
+  .welcome {
+  position: relative;
+  top: 100px;
+  width: 60%;
+}
+.left-side-text {
+    font-size: 1em;
+    position: fixed;
+    float: left;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+}
+
+
+
+  .welcome {
+  position: relative;
+
+}
+.himg {
+
+}
+
+
+
+
+
+
+.btn {
+  top: 540px;
+  width: 40%;
+  max-width: 400px;
+  height: 125px;
+  background: rgba(255, 255, 255, 0.3) url(../images/portfolio.svg)no-repeat;
+  border-radius: 15px;
+  border-style: none; 
+  box-shadow: 0px 55px 144px #000;
+}
+
+
+/* Desktop query End*/
+/* Desktop query End*/
+/* Desktop query End*/
+/* Desktop query End*/
+/* Desktop query End*/
+/* Desktop query End*/
+}
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+#myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+#myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg3:hover {opacity: 0.7;}
+
+#myImg5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg5:hover {opacity: 0.7;}
+#myImg6 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg6:hover {opacity: 0.7;}
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 900px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 100px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+      top: 22px;
+        width: 100%;
+    }
+    .close {
+    position: absolute;
+    top: 500px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .close {
+    position: absolute;
+    top: 800px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    }
+  }
+.name-copy {
+  float: right;
+  color: #909090;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    clear: both;
+
+    background-color: #fff;
+}
+
+body{
+  margin: auto;
+  max-width: 1100px;
+}
+
+
+.left-side-text {
+    font-size: 1em;
+    position: fixed;
+    top: 400px;
+    left: -280px;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+}
+.email {
+  position: relative;
+  left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+.name {
+  padding-left: 200px;
+}
+.line-left {
+  position: fixed;
+  left: 50px;
+  border-right: 1px solid #ddd;
+  height: 100%;
+}
+
+
+.h2{
+font-family: 'Roboto', sans-serif;
+ font-weight: 800;
+ font-size: 2.5em;
+ color: #000;
+ line-height: 3.5;
+}
+
